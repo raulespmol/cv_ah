@@ -1,7 +1,14 @@
 *{
     margin: 0;
+    font-family: 'Mollen', sans-serif;
+    font-weight: normal;
 }
 body{
     background: black;
 }
 
+h3{
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}

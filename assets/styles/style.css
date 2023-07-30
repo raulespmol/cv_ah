@@ -1,10 +1,41 @@
 *{
     margin: 0;
     font-family: 'Mollen', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
+    color: white;
 }
 body{
-    background: black;
+    background: #aaa
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.navbar h1 {
+    font-size: 1.3rem;
+}
+
+.navbar h2{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.nav-links{
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline #E6126C 2px;
 }
 
 h3{

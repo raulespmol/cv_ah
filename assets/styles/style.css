@@ -22,6 +22,14 @@ p{
     /* font-family: Helvetica, Arial, sans-serif; */
 }
 
+/* Responsive */
+
+@media screen and (max-width: 768px){
+    .projects img{
+        width: 100vw;
+    }
+}
+
 /* Barra navegacion */
 .navbar{
     width: 100%;
@@ -109,9 +117,11 @@ header a{
 
 /* Proyectos */
 
-.projects{
-    width: 100%;
+.projects img{
+    width: 50%;
 }
+
+
 
 .icon{
     width: 150px;

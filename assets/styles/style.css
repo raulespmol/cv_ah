@@ -85,7 +85,7 @@ header a{
 }
 
 .hero-bg{
-    background-image: url(/assets/img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-color: rgb(60, 60, 60);
     background-position: center;
     background-repeat: no-repeat;

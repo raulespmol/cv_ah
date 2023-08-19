@@ -10,11 +10,11 @@
 </head>
 <header>
     <nav class="navbar p-0">
-        <div class="container-fluid bg-black m-0 px-md-5">
+        <div class="container-fluid bg-black m-0 px-lg-5">
                 <!-- flexbox -->
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-between vw-100">
                     <!-- titulo -->
-                <div class="p-2 d-flex-grow-1"> 
+                <div class="p-2 d-flex-grow-1 w-50"> 
                     <h1 class="m-0">Alex Hidalgo López</h1>
                     <h2 class="m-0">Diseñador Gráfico</h2>
                 </div>
@@ -28,7 +28,7 @@
                     </a>
                 </div>
                     <!-- menu -->
-                <div class="p-0">
+                <div class="p-0 w-50 d-flex justify-content-end">
                     <a class="nav-btn p-4 m-0">Sobre mí</a>
                     <a class="nav-btn p-4 m-0">Proyectos</a>
                     <a class="nav-btn p-4 m-0">Contacto</a>
@@ -39,8 +39,8 @@
 </header>
 
 <body>
-    <div class="container-fluid hero">
-    <div class="container hero">
+    <div class="container-fluid hero-bg" id="home">
+    <div class="container">
         <div class="row d-flex align-items-center landing">
 
             <div class="col-md-6 d-flex justify-content-end">
@@ -51,7 +51,7 @@
 
             <div class="col-md-6 d-block">
                 <div class="m-4">
-                <h4 class="fs-2">Soy Alex Hidalgo López</h5>
+                <h4 class="fs-2">Soy Alex Hidalgo López</h4>
 
                 <p>Me especializo en Diseño Publicitario, Creación de logotipos, Identidad
                 Corporativa y Desarrollo de piezas gráficas Digitales y Análogas.</p>
@@ -68,7 +68,7 @@
     </div>
     </div>
     
-    <div class="container-fluid hero py-5 px-0" style="background-color: #E6126C;">
+    <div class="container-fluid pt-5 px-0 projects" style="background-color: #E6126C;">
         <div class="container">
             <div class="row d-flex align-items-center">
 
@@ -87,23 +87,83 @@
                 </div>
 
                 <div class="col-12 d-flex flex-wrap justify-content-center my-5">
-                    <div class="m-2 icon"></div>
-                    <div class="m-2 icon"></div>
-                    <div class="m-2 icon"></div>
-                    <div class="m-2 icon"></div>
+                    <div class="m-3 icon">
+                        <svg width="150" viewBox="0 0 212 212" fill="rgba(0,0,0,0.8)" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M211.5 105.5C211.5 126.7 211.5 147.8 211.5 169C211.5 194.4 194.6 211.5 169.3 211.5C127.2 211.5 85 211.5 42.9 211.5C16.7 211.4 0 194.7 0 168.6C0 126.5 0 84.3 0 42.2C0 16.9 17 0 42.4 0C84.7 0 127 0 169.3 0C194.4 0 211.3 16.9 211.4 42C211.5 63.2 211.5 84.3 211.5 105.5ZM66.5 120.2C74.2 119.4 81.3 119.3 88 117.8C102.7 114.6 111 103.7 110.8 89.1C110.6 74.9 101.9 64.3 87 62.1C76.9 60.6 66.4 61.4 56.1 60.9C51.8 60.7 50.4 62 50.4 66.5C50.6 91.6 50.5 116.8 50.5 141.9C50.5 143.5 50.7 145.1 50.8 146.9C56.1 146.9 61 146.9 66.4 146.9C66.5 137.9 66.5 129.1 66.5 120.2ZM121.8 131.2C121.8 134.8 121.6 138.8 121.9 142.7C122 143.8 123.4 145.4 124.5 145.8C135.4 149.6 146.4 150.5 157 145.2C169.9 138.8 170.9 121.7 159 113.7C155.5 111.3 151.3 109.8 147.4 107.9C144.7 106.6 141.8 105.6 139.4 103.9C135.4 101.2 135.9 96.5 140.5 95.2C143.9 94.2 147.7 94.2 151.3 94.7C155.3 95.2 159.2 96.6 163.6 97.7C163.6 93.8 163.8 90.3 163.5 86.9C163.4 85.6 162.1 83.6 161 83.3C151 80.5 140.9 79.7 131.4 84.8C119 91.5 118.2 107.8 129.8 115.6C133.9 118.3 138.8 119.9 143.2 122.2C146.9 124.1 152 125 151.4 130.8C151.1 134.3 146.1 136.4 139.5 135.4C133.7 134.5 128 132.7 121.8 131.2Z" />
+                            <path d="M66.8 105.8C66.8 94.9 66.8 85.2 66.8 74.4C73 74.9 79 74.8 84.7 76C91.7 77.6 95.1 82.9 95.1 90C95.1 97.1 91.6 102.3 84.6 103.9C78.9 105.2 73.1 105.2 66.8 105.8Z" />
+                        </svg>
+                    </div>
+                    <div class="m-3 icon">
+                        <svg width="150" viewBox="0 0 212 212" fill="rgba(0,0,0,0.8)" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M105.9 211.5C84.9 211.5 63.9 211.5 42.9 211.5C16.9 211.5 0 194.6 0 168.7C0 126.8 0 85 0 43.2C0 16.7 16.7 0 43.1 0C85.2 0 127.4 0 169.5 0C194.5 0 211.6 17 211.7 42C211.8 84.5 211.8 127 211.7 169.4C211.7 194.2 194.7 211.2 169.9 211.4C148.6 211.6 127.2 211.5 105.9 211.5ZM128.7 147.3C127.8 144.6 127.3 142.9 126.7 141.2C118.4 118.2 110.1 95.1 101.9 72.1C97.9 61.1 98 61.2 86.2 61C81.2 60.9 76.9 60.8 77.3 67.7C77.4 68.8 76.6 69.9 76.2 71C67.9 94.6 59.7 118.1 51.4 141.7C50.8 143.3 50.4 145 49.7 147.3C54.1 147.3 57.8 147.1 61.4 147.3C64.2 147.5 65.6 146.5 66.4 143.7C68 138.4 70 133.3 71.5 128C72.2 125.5 73.4 124.5 76.1 124.6C84.3 124.7 92.4 124.5 100.6 124.8C102.2 124.9 104.4 126.6 105 128.1C107.2 133.3 108.7 138.8 110.9 144C111.4 145.3 113.2 146.9 114.5 147C118.9 147.5 123.4 147.3 128.7 147.3ZM153.7 147C153.7 125.4 153.7 104.3 153.7 83C148.4 83 143.4 83 138.2 83C138.2 104.5 138.2 125.6 138.2 147C143.5 147 148.4 147 153.7 147ZM146.1 55.8C140.7 55.8 137 59.6 137 64.9C137.1 70.3 141 74 146.3 73.9C151.4 73.8 155 70.1 155 64.9C155.1 59.3 151.7 55.7 146.1 55.8Z"/>
+                            <path d="M77.2 109.9C80.9 98.3 84.5 87.2 88.3 75C92.2 87.1 95.8 98.3 99.5 109.9C91.9 109.9 84.8 109.9 77.2 109.9Z" />
+                        </svg> 
+                    </div>
+                    <div class="m-3 icon">
+                        <svg width="150" viewBox="0 0 212 213" fill="rgba(0,0,0,0.8)" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M105.8 212.6C84.3 212.6 62.8 212.6 41.3 212.6C17.6 212.5 0.200024 195.5 0.100024 171.7C2.44156e-05 128.5 2.44156e-05 85.4 0.100024 42.2C0.200024 18.6 17.1 1.30001 40.7 1.20001C84.2 0.900006 127.7 0.900006 171.1 1.20001C194.7 1.40001 211.5 18.7 211.6 42.3C211.7 85.3 211.7 128.3 211.6 171.2C211.5 195.3 194.2 212.4 170.2 212.5C148.8 212.6 127.3 212.6 105.8 212.6ZM112 148.6C111.8 147.1 111.8 146.1 111.5 145.2C101.9 118.6 92.4 91.9 82.7 65.3C82.3 64.1 80.9 62.4 79.9 62.4C74 62.1 68 62.3 63.3 62.3C53.1 91.5 43.2 119.7 33.1 148.6C37.9 148.6 41.8 148.9 45.5 148.5C47 148.3 49.1 146.9 49.6 145.5C51.7 140.3 53.4 134.8 55.1 129.4C55.9 126.8 57.1 125.7 60 125.7C68 125.9 76 125.9 84 125.7C87 125.6 88.1 126.9 88.9 129.4C90.6 134.8 92.5 140.1 94.6 145.4C95.1 146.7 96.6 148.3 97.8 148.4C102.4 148.8 107.1 148.6 112 148.6ZM169.5 133.7C164.6 134.6 159.7 136.2 154.9 136C149.9 135.9 144.7 134.7 140.1 132.7C135.3 130.5 133.3 125.7 133.3 119.8C135.3 119.8 137.1 119.8 138.9 119.8C149.1 119.8 159.2 119.8 169.4 119.5C171.1 119.5 174.1 118 174.3 116.8C176.5 103.1 171.3 86.7 154.5 83.1C139.6 79.9 125.8 87.1 120 101.1C110.9 122.9 121.1 145.6 141.8 149.1C147.1 150 152.8 149.9 158.2 149.2C169.6 147.8 170.7 146.1 169.9 134.7C169.8 134.3 169.6 134 169.5 133.7Z" />
+                            <path d="M60.9 111.1C64.6 99.6 68.1 88.6 72 76.2C76 88.5 79.6 99.5 83.3 111.1C75.7 111.1 68.7 111.1 60.9 111.1Z" />
+                            <path d="M133.6 108C135 99.4 140.4 94.7 148.1 95.2C155.1 95.7 159.1 100.1 159.4 108C150.9 108 142.4 108 133.6 108Z" />
+                        </svg>                            
+                    </div>
+                    <div class="m-3 icon">
+                        <svg width="150" viewBox="0 0 212 212" fill="rgba(0,0,0,0.8)" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M211.6 105.9C211.6 127.2 211.6 148.5 211.6 169.9C211.6 194.1 194.8 211.3 170.6 211.5C127.3 211.7 84 211.7 40.7 211.5C17.8 211.4 0.6 194.7 0.3 171.8C-0.1 127.8 -0.1 83.9 0.3 39.9C0.5 16.4 18.1 0 41.5 0C84.5 0 127.4 0 170.4 0C194.4 0 211.5 17.3 211.6 41.4C211.6 62.9 211.6 84.4 211.6 105.9ZM72.2 119.5C74.6 119.5 76.4 119.7 78.2 119.5C84.3 118.8 90.6 118.6 96.4 117C109.7 113.2 116.8 102.6 116.5 88.8C116.1 75.7 108.5 66.1 95.2 62.6C91.1 61.5 86.7 61.1 82.4 61C75.4 60.8 68.4 61.3 61.4 61C57.1 60.8 56.2 62.5 56.2 66.5C56.4 91.8 56.3 117.1 56.3 142.4C56.3 144 56.5 145.6 56.6 147.1C62 147.1 66.8 147.1 72.2 147.1C72.2 137.9 72.2 128.9 72.2 119.5ZM164.7 95.9C164.7 91.6 164.7 86.6 164.7 80.5C160.4 81.7 156.6 82.2 153.2 83.8C149.7 85.4 146.6 87.8 143.3 89.9C141.5 82.2 136.9 80.4 127.9 83.4C127.9 104.6 127.9 125.6 127.9 146.9C133.5 146.9 138.5 146.9 143.4 146.9C143.6 146.2 143.8 145.8 143.8 145.5C143.8 133 144 120.5 143.8 108.1C143.7 104.4 145 101.8 148.3 100.7C153.6 98.8 159 97.5 164.7 95.9Z"/>
+                            <path d="M72.6 105.8C72.6 94.8 72.6 85.1 72.6 74.2C79 74.8 85.2 74.8 91 76.2C97.7 77.8 100.8 83.2 100.7 90.2C100.6 97.1 97.2 102.3 90.5 103.8C84.8 105.1 79 105.2 72.6 105.8Z"/>
+                        </svg>    
+                    </div>
                 </div>
                 
             </div>
         </div>
+    </div>
 
-        <div class="container-fluid d-flex flex-wrap p-0 projects">
-            <img src="https://picsum.photos/700/400/?random=1" alt="">
-            <img src="https://picsum.photos/700/400/?random=2" alt="">
-            <img src="https://picsum.photos/700/400/?random=3" alt="">
-            <img src="https://picsum.photos/700/400/?random=4" alt="">
-            <img src="https://picsum.photos/700/400/?random=5" alt="">
-            <img src="https://picsum.photos/700/400/?random=6" alt="">
+    <div class="container-fluid d-flex flex-wrap p-0 projects-img">
+        
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_maulette.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=2">
         </div>
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_ac.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=1">
+        </div>
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_lonquimay.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=3">
+        </div>
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_ag.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=4">
+        </div>
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_copihues.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=5">
+        </div>
+        <div class="image">
+            <div class="overlay">
+                <img src="./assets/svg/logo_b.svg">
+            </div>
+            <img src="https://picsum.photos/700/400/?random=6">
+        </div>
+        
+       
+
+        <!-- <img src="https://picsum.photos/700/400/?random=2">
+        <img src="https://picsum.photos/700/400/?random=3">
+        <img src="https://picsum.photos/700/400/?random=4">
+        <img src="https://picsum.photos/700/400/?random=5">
+        <img src="https://picsum.photos/700/400/?random=6"> -->
     </div>
 
     <!-- div vacio para generar scroll -->
